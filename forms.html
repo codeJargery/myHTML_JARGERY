@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<header>
+    <h1>MY HTML SHOWCASE</h1>
+    <p>by Jargery Justice(2025)</p>
+    <nav>
+      
+       <a href="index.html">Home</a>
+       <a href="elements.html">Elements</a>
+       <a href="news.html">News</a>
+       <a href="media.html">Media</a>
+       <a href="resume.html">Resume</a>
+       <a href="glossary.html">Glossary</a>
+       
+    </nav>
+    <h3>Forms</h3>
+</header>
+<body>
+   <main>
+    <fieldset>
+        <img src="Images\gym.png" width="1320" height="150" alt="a picture of fitness equipments in a gym">
+        <legend><b>LACReTIN GYM Membership</b></legend>
+        <p>Thank you for your interest in being part of the premium gym of choice.</p>
+        <p>Please fill out the form below.</p>
+    </fieldset>
+
+    <form action="#" method="post">
+    <fieldset>
+        <legend>Personal Information</legend>
+            <label for="name">Fullname:</label><br>
+            <input type="text" id="name" required placeholder="please enter your full name">
+            <br>
+            <label for="age">Age:</label><br>
+            <input type="number" min="16" max="70" id="age" required placeholder="Age">
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" required placeholder="enter a valid email">
+            <br>
+            <label for="phone">Mobile Number:</label><br>
+            <input type="tel" id="phone" min="10" max="11" required placeholder="+5314442552">
+            <br>
+            <p>Gender</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male"  name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female"  name="gender">
+            <label for="non-binary">Non-Binary</label>
+            <input type="radio" id="non-binary" name="gender">
+            
+       
+       
+    </fieldset>
+
+    <fieldset>
+        <legend>Membership Plan</legend>
+        <table border="">
+            <caption>Plans Available</caption>
+            <thead>
+                <tr>
+                    <th>Plan</th>
+                    <th>Features</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Weekly 
+                        <p>(Best for short time users)</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Full gym access(7 days)</li>
+                            <li>2 free group classes</li>
+                            <li>No long term commitments</li>
+                        </ul>
+                    </td>
+                    <td>£14</td>
+                </tr>
+                <tr>
+                    <td>Monthly
+                        <p>(Best for regular users who want flexibility)</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Unlimited gym access(30 days)</li>
+                            <li>8 free group classes</li>
+                            <li>Free fitness assessment each month</li>
+                        </ul>
+                    </td>
+                    <td>£40</td>
+                </tr>
+                <tr>
+                    <td>Quarterly
+                        <p>(Dedicated members who wants savings)</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Unlimited gym access(90 days)</li>
+                            <li>25 free group classes</li>
+                            <li>Free personal training each month</li>
+                            <li>Discount on merchandise</li>
+                        </ul>
+                    </td>
+                    <td>£90</td>
+                </tr>
+                <tr>
+                    <td>Yearly
+                        (Long term members looking for best value)
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Unlimited gym access(365 days)</li>
+                            <li>12 free group classes</li>
+                            <li>12 Free personal training (1 each month)</li>
+                            <li>Priority booking for events</li>
+                            <li>Free t-shirt and a welcome kit</li>
+                        </ul>
+                    </td>
+                    <td>£320</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br>
+            <label for="plan">Select a membership plan</label>
+            <select name="plan" id="">
+                <option value="" disabled selected>Select a plan</option>
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+                <option value="quarterly">Quarterly</option>
+                <option value="yearly">Yearly</option>
+            </select>
+           
+            <p>Personal Goals</p>
+            <label for="weight">Weight Loss</label>
+            <input type="checkbox" id="weight" >
+            <label for="muscle">Muscle Gain</label>
+            <input type="checkbox" id="muscle" value="muscle">
+            <label for="fitness">General Fitness</label>
+            <input type="checkbox" id="fitness" value="fitness" >
+            <label for="sports">Sports Training</label>
+            <input type="checkbox" id="sports" value="sports" >
+    </fieldset>
+    <fieldset>
+        <legend>Emergency Contact</legend>
+        <p>Please provide your emergency contact information below</p>
+            <label for="name2">Full-name:</label><br>
+            <input type="text" required id="name2"  placeholder="Person to reach in case of emergency">
+             <br>
+            <label for="relationship">Relationship:</label><br>
+            <input type="text" id="relationship" placeholder="sibling, mum, spouse, etc." required>
+            <br>
+            <label for="phone2">Phone Number:</label><br>
+            <input type="tel" id="phone2" min="10" max="11" required placeholder="+5314442552">
+            <br>
+            <label for="phone3">Alternative Phone Number:</label><br>
+            <input type="tel" id="phone3" min="10" max="11" required placeholder="+5314442552">
+              <br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" required>
+             <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        
+    </fieldset>
+    </form>
+
+    </main>
+<footer>
+    <p>&copy;Jargery Justice 2025</p>
+    <a href="https://x.com/Jargery2?t=goP6_zKGeSf4UXo6Ui9dvA&s=09">X</a>
+     <a href="https://github.com/codeJargery">GitHub</a>
+    <a href="mailto:jargeryjustice@email.com">jargeryjustice@gmail.com</a>
+ </footer>  
+</body>
+</html>

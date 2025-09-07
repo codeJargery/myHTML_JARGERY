@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Feedback</title>
+</head>
+<header>
+    <h1>Elements Feeback Form</h1>
+    <p>If you're here, it means you clicked on elements</p>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="elements.html">Elements</a>
+    </nav>
+</header>
+<body>
+  <main>
+ <P>Please let me know what you think, what i can improve on, suggestions, etc.</P>
+ <form action="#" method="post">
+    <fieldset>
+     <legend>Personal Information</legend>
+    <label for="name">Your Fullname</label>
+    <input type="text" id="name" placeholder="ex. Akwasi Boateng" required>
+
+    <label for="email">Enter Your Email</label>
+    <input type="text" id="email" placeholder="ex. kwasiboateng@mail.com" required>
+    </fieldset>
+    <fieldset>
+    <legend>Ratings</legend>
+    <label for="ratings">How will you rate me?</label>
+    <select name="ratings" id="ratings" required>
+      <option value="bad">Bad</option>
+      <option value="good">Good</option>
+      <option value="excellent">Excellent</option>
+    </select>
+    </fieldset>
+    <fieldset>
+        <legend>Comments</legend>
+        <label for="comments">Write your comments or suggestions here.</label>
+        <textarea name="comments" id="comments" rows="10" cols="40" placeholder="comments..."required></textarea>
+        <br>
+        <label for="upload">Upload a file:</label>
+        <input type="file" id="upload" name="file_upload">
+    </fieldset>
+    <button type="submit">Submit Feedback</button>
+    <button type="reset">Reset</button>
+ </form>
+  </main>
+   <footer>
+    <p>&copy;Jargery Justice 2025</p>
+    <h5>Contact</h5>
+    <a href="https://x.com/Jargery2?t=goP6_zKGeSf4UXo6Ui9dvA&s=09">X</a>
+     <a href="https://github.com/codeJargery">GitHub</a>
+    <a href="mailto:jargeryjustice@email.com">jargeryjustice@gmail.com</a>
+
+ </footer>    
+</body>
+</html>
